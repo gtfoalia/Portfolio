@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav > img{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: block;
+    float: left;
+}
+
+nav > ul{
+    margin-left: 400px;
+    margin-top: 20px;
+}
+
+nav ul li{
+    display: block;
+    float: left;
+    padding-right: 20px;
+}
+
+
+
+nav ul a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav ul a:hover{
+    color: gray;
+    
+}
+
+article{
+    clear: both;
+    margin: 0 auto;
+    text-align: center;
+}
+
+article h1{
+    padding-top: 100px;
+    font-size: 2em;
+}
+
+.transbutton{
+    display: block;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 3.5px solid black;
+    float: left;
+    width: 150px;
+    height: 40px;
+    line-height: 38px;
+    justify-content: center;
+    padding-top: 4px;
+    padding-right: 24px;
+    padding-bottom: 4px;
+    padding-left: 24px;
+    margin-top: 77px;
+}
+
+.transbutton:hover{
+    background-color: #C8A2C8;
+    color: white;
+    border: solid #C8A2C8;
+}
+
+.center{
+    display: block;
+    margin: 0 auto;
+    width: 350px;
+    background-color: greenyellow;
+}
+
+#highschool {
+    background: url("file:///c:/Users/Hp X360 G2/Downloads/startbootstrap-grayscale-gh-pages/startbootstrap-grayscale-gh-pages/assets/img/SSP.jpg");
+}
